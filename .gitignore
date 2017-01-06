@@ -1,0 +1,10 @@
+/debug
+/node_modules
+/build
+.DS_Store
+/config/development*
+/config/production*
+/config/release*
+/.idea
+/yarn-error.log
+/bin

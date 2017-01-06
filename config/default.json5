@@ -1,0 +1,14 @@
+{
+  port: 3015,
+  host: 'http://localhost:3015',
+  secretToken: 'my_secret',
+  password_salt: 'sample',
+  rootAPI: '/',
+  mysql: {
+    hostname: '192.168.199.131',
+    username: 'root',
+    password: '123456',
+    port: 3306,
+    database: 'apighost'
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "madpj-server",
+  "version": "0.12.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js",
+    "deploy-dev":"make dep-run",
+    "deploy-restart":"make restart"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.24.0",
+    "debug": "^2.5.2",
+    "js-yaml": "^3.7.0",
+    "lodash": "^4.17.3",
+    "mockjs": "^1.0.1-beta3",
+    "mysql2": "^1.1.2",
+    "sequelize": "^3.28.0",
+    "thunks": "^4.7.5",
+    "toa": "^2.5.0",
+    "toa-body": "^1.4.1",
+    "toa-cookie-session": "^0.2.5",
+    "toa-router": "^2.0.1",
+    "toa-session": "^1.2.2",
+    "toa-static": "^0.5.2",
+    "toa-token": "^2.1.1"
+  },
+  "devDependencies": {}
+}
